@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 .button{
 	margin-bottom: 10px;
 }
+
+.img-fluid{
+	max-width: 100%
+}
+
+body{
+	font-family: 'Indie Flower', cursive;
+}
+
+btn-light{
+	background-color:#fff;
+	}
