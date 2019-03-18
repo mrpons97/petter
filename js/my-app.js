@@ -31,10 +31,10 @@ var myApp = new Framework7({
     	url: 'tabs.html',
     	name: 'tabs',
 		},{
-		path: '/accordions/',
-    	url: 'accordions.html',
-    	name: 'accordions',	
-		}
+		path: '/cruce/',
+    	url: 'cruce.html',
+    	name: 'cruce',	
+		}	
 		
 		
 	]
@@ -57,6 +57,19 @@ $$('.open-welcome').on('click', function () {
 $$(window).on('load', function () {
   notificationWelcome.open();
 });
+
+$$('.login-screen').on('loginscreen:open', function (e, loginScreen) {
+  console.log('Login screen open')
+});
+$$('.login-screen').on('loginscreen:opened', function (e, loginScreen) {
+  console.log('Login screen opened')
+});
+$$('.login-screen').on('loginscreen:close', function (e, loginScreen) {
+  console.log('Login screen close')
+});
+$$('.login-screen').on('loginscreen:closed', function (e, loginScreen) {
+  console.log('Login screen closed')
+}); 	
 
 
 
