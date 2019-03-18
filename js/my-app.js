@@ -22,23 +22,50 @@ var myApp = new Framework7({
     	name: 'zeus',
   		},
 		{
+		path: '/micho/',
+    	url: 'micho.html',
+    	name: 'micho',
+  		},
+		{
+		path: '/kanga/',
+    	url: 'kanga.html',
+    	name: 'kanga',
+  		},
+		{
 		path: '/busca/',
     	url: 'busca.html',
     	name: 'busca',
   		},
 		{
-		path: '/micho/',
-    	url: 'micho.html',
-    	name: 'micho',
-		},{
 		path: '/cruce/',
     	url: 'cruce.html',
-    	name: 'cruce',	
-		},{
-		path: '/login-screen/',
-    	url: 'login-screen.html',
-    	name: 'login-screen',	
-		}	
+    	name: 'cruce',
+  		},
+		{
+		path: '/historial/',
+    	url: 'historial.html',
+    	name: 'historial',
+  		},
+		{
+		path: '/guardado/',
+    	url: 'guardado.html',
+    	name: 'guardado',
+  		},
+		{
+		path: '/ajustes/',
+    	url: 'settings.html',
+    	name: 'ajustes',
+  		},
+		{
+		path: '/info/',
+    	url: 'info.html',
+    	name: 'info',
+  		},
+		{
+		path: '/login/',
+    	url: 'login.html',
+    	name: 'login',
+		},
 		
 		
 	]
@@ -61,8 +88,6 @@ $$('.open-welcome').on('click', function () {
 $$(window).on('load', function () {
   notificationWelcome.open();
 });
-
-
 
 
 

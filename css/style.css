@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
 
 .button{
 	margin-bottom: 10px;
@@ -9,9 +9,25 @@
 }
 
 body{
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Chewy', cursive;
 }
 
-btn-light{
-	background-color:#fff;
-	}
+h1{
+font-family: 'Chewy', cursive;
+font-size: 30px;
+color: #434343;
+}
+
+h2{
+font-family: 'Chewy', cursive;
+font-size: 25px;
+color: #FF6C15;
+}
+
+.center {
+align: center;
+}
+
+h3 {
+font-family: 'Chewy', cursive;
+}
